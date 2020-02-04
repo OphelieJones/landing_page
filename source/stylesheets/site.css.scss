@@ -5,35 +5,78 @@
 body {
   background-color: white;
   background-image: url("../images/bckgrnd.jpeg");
-  background-size : cover;
-  font-family: "Montserrat", "Open Sans", "Helvetica", "sans-serif";
+  background-size: cover;
+  background-position: center;
+  font-family:  "Fira Sans", "Montserrat", "Open Sans", "Helvetica", "sans-serif";
   padding: 50px;
   text-align: center;
+  height: 100vh;
 
-.bandetitre {
+  // a {
+  //   color: rgba(#000, 0.7);
+
+  //   &:focus,
+  //   &:hover {
+  //     color: rgba(#000, 0.6);
+  //   }
+  // }
+
+}
+
+.global {
+  display: grid;
+  grid-template-column: 1fr;
+}
+
+.bande-titre {
   font-weight: 300;
   letter-spacing: 15px;
   background-color: white;
   padding: 10px;
   opacity: 0.5;
+  // position: sticky;
 }
 
-.bandeparagraphe {
+.paragraphe {
   background-color: white;
   padding: 10px;
+  margin: 10px;
   opacity: 0.5;
   font-weight: 400;
   letter-spacing: 7px;
-}
 
-}
+  .bande-paragraphe {
+    text-align: justify;
+    margin: 20px;
+  }
+  .contact-me-form {
+    background-color: white;
+    text-align: justify;
+    margin: 20px;
+    opacity: 0;
+    width: 50vw;
+    justify-content: center;
+    display: grid;
+    grid-template-row: 1fr;
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+    .form-corps {
+      justify-content: center!important;
+      display: grid;
+      grid-template-row: 1fr;
+    }
   }
 }
+
+.form-element {
+  font-family:  "Fira Sans", "Montserrat";
+  font-weight: 300;
+  letter-spacing: 5px;
+
+  .message {
+    width: 100px;
+  }
+
+}
+
+
 
