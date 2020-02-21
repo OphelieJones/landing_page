@@ -59,18 +59,32 @@ body {
     display: grid;
     grid-template-row: 1fr;
 
-    .form-corps {
-      justify-content: center!important;
-      display: grid;
-      grid-template-row: 1fr;
-    }
   }
+}
+
+.contact-form-container {
+  text-align: center;
+  background-color: white;
+  padding: auto;
+  margin: 20px;
+  height: 300px;
+  width: 40%;
+}
+
+
+.form-corps {
+  justify-content: center!important;
+  display: grid;
+  grid-template-row: 2fr;
 }
 
 .form-element {
   font-family:  "Fira Sans", "Montserrat";
   font-weight: 300;
   letter-spacing: 5px;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
 
   .message {
     width: 100px;
