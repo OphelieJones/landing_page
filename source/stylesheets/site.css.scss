@@ -11,16 +11,6 @@ body {
   padding: 50px;
   text-align: center;
   height: 100vh;
-
-  // a {
-  //   color: rgba(#000, 0.7);
-
-  //   &:focus,
-  //   &:hover {
-  //     color: rgba(#000, 0.6);
-  //   }
-  // }
-
 }
 
 .global {
@@ -28,95 +18,48 @@ body {
   grid-template-column: 1fr;
 }
 
-.bande-titre {
+.bande-landing {
   font-weight: 300;
   letter-spacing: 15px;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   opacity: 0.5;
-  // position: sticky;
+
 }
 
-.paragraphe {
+p {
+  padding: 10px 30px;
+  margin: 0px;
+}
+
+.form-corps {
   background-color: white;
-  padding: 10px;
-  margin: 10px;
-  opacity: 0.5;
-  font-weight: 400;
-  letter-spacing: 7px;
-
-  .bande-paragraphe {
-    text-align: justify;
-    margin: 20px;
-  }
-  .contact-me-form {
-    background-color: white;
-    text-align: justify;
-    margin: 20px;
-    opacity: 0;
-    width: 50vw;
-    justify-content: center;
-    display: grid;
-    grid-template-row: 1fr;
-
-  }
 }
 
 .contact-form-container {
-  text-align: center;
-  background-color: white;
-  padding: auto;
-  margin: 20px;
-  height: 300px;
-  width: 40%;
-}
-
-
-.form-corps {
-  justify-content: center!important;
   display: grid;
-  grid-template-row: 2fr;
+  grid-template-row: 1fr;
+  justify-content: center;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+
+  .contact-me-form {
+    background-color: white;
+    padding: auto;
+  }
 }
+
 
 .form-element {
   font-family:  "Fira Sans", "Montserrat";
   font-weight: 300;
   letter-spacing: 5px;
-  width: 250px;
+  width: 300px;
   padding: 10px;
   margin: 10px;
 
   .message {
-    width: 100px;
+    height: 300px;
   }
-
 }
-
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
-}
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
-}
-
-
